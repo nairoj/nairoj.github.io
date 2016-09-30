@@ -38,7 +38,7 @@
     <link href="http://nairoj.top/2016/09/27/new/"/>
     <id>http://nairoj.top/2016/09/27/new/</id>
     <published>2016-09-26T17:05:20.000Z</published>
-    <updated>2016-09-29T14:24:18.492Z</updated>
+    <updated>2016-09-30T07:38:03.484Z</updated>
     
     <content type="html"><![CDATA[<p>#1</p>
 <p>##2</p>
@@ -63,6 +63,12 @@
     
     </summary>
     
+      <category term="testing" scheme="http://nairoj.top/categories/testing/"/>
+    
+    
+      <category term="php" scheme="http://nairoj.top/tags/php/"/>
+    
+      <category term="code" scheme="http://nairoj.top/tags/code/"/>
     
   </entry>
   
