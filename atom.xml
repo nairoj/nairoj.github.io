@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>nairoj&#39;s blog</title>
+  <subtitle>php|ubuntu|算法 初学者</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://nairoj.top/"/>
+  <updated>2016-09-30T06:56:44.382Z</updated>
+  <id>http://nairoj.top/</id>
+  
+  <author>
+    <name>NairoJ</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试</title>
+    <link href="http://nairoj.top/2016/09/28/%E6%B5%8B%E8%AF%95/"/>
+    <id>http://nairoj.top/2016/09/28/测试/</id>
+    <published>2016-09-27T16:01:35.000Z</published>
+    <updated>2016-09-30T06:56:44.382Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="Testing" scheme="http://nairoj.top/tags/Testing/"/>
+    
+      <category term="Another Tag" scheme="http://nairoj.top/tags/Another-Tag/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>new</title>
+    <link href="http://nairoj.top/2016/09/27/new/"/>
+    <id>http://nairoj.top/2016/09/27/new/</id>
+    <published>2016-09-26T17:05:20.000Z</published>
+    <updated>2016-09-29T14:24:18.492Z</updated>
+    
+    <content type="html"><![CDATA[<p>#1</p>
+<p>##2</p>
+<p>###3<br>jdsajiwbid</p>
+<hr>
+<p>+wq<br>+sad<br>+sa<br>-da<br>-sa<br>jiwbid</p><p></p>
+<hr>
+
+<p>+wq<br>+sad<br>+sa<br>-da<br>-sa</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#1&lt;/p&gt;
+&lt;p&gt;##2&lt;/p&gt;
+&lt;p&gt;###3&lt;br&gt;jdsajiwbid&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;+wq&lt;br&gt;+sad&lt;br&gt;+sa&lt;br&gt;-da&lt;br&gt;-sa&lt;br&gt;jiwbid&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;p&gt;+wq&lt;br&gt;+sad&lt;br&gt;+sa&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://nairoj.top/2016/09/26/hello-world/"/>
+    <id>http://nairoj.top/2016/09/26/hello-world/</id>
+    <published>2016-09-26T15:51:31.150Z</published>
+    <updated>2016-09-26T15:51:31.150Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
