@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>nairoj&#39;s blog</title>
-  <subtitle>php|ubuntu|算法 初学者</subtitle>
+  <subtitle>php|ubuntu|算法 学习者</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://nairoj.top/"/>
+  <link href="http://www.nairoj.top/"/>
   <updated>2016-10-01T05:29:42.295Z</updated>
-  <id>http://nairoj.top/</id>
+  <id>http://www.nairoj.top/</id>
   
   <author>
     <name>NairoJ</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://nairoj.top/2016/10/01/hello-world/"/>
-    <id>http://nairoj.top/2016/10/01/hello-world/</id>
+    <link href="http://www.nairoj.top/2016/10/01/hello-world/"/>
+    <id>http://www.nairoj.top/2016/10/01/hello-world/</id>
     <published>2016-10-01T05:29:42.299Z</published>
     <updated>2016-10-01T05:29:42.295Z</updated>
     
@@ -48,8 +48,8 @@
   
   <entry>
     <title>测试</title>
-    <link href="http://nairoj.top/2016/09/28/%E6%B5%8B%E8%AF%95/"/>
-    <id>http://nairoj.top/2016/09/28/测试/</id>
+    <link href="http://www.nairoj.top/2016/09/28/%E6%B5%8B%E8%AF%95/"/>
+    <id>http://www.nairoj.top/2016/09/28/测试/</id>
     <published>2016-09-27T16:01:35.000Z</published>
     <updated>2016-09-30T06:56:44.382Z</updated>
     
@@ -58,16 +58,16 @@
     </summary>
     
     
-      <category term="Testing" scheme="http://nairoj.top/tags/Testing/"/>
+      <category term="Testing" scheme="http://www.nairoj.top/tags/Testing/"/>
     
-      <category term="Another Tag" scheme="http://nairoj.top/tags/Another-Tag/"/>
+      <category term="Another Tag" scheme="http://www.nairoj.top/tags/Another-Tag/"/>
     
   </entry>
   
   <entry>
     <title>new</title>
-    <link href="http://nairoj.top/2016/09/27/new/"/>
-    <id>http://nairoj.top/2016/09/27/new/</id>
+    <link href="http://www.nairoj.top/2016/09/27/new/"/>
+    <id>http://www.nairoj.top/2016/09/27/new/</id>
     <published>2016-09-26T17:05:20.000Z</published>
     <updated>2016-09-30T07:38:03.484Z</updated>
     
@@ -94,12 +94,12 @@
     
     </summary>
     
-      <category term="testing" scheme="http://nairoj.top/categories/testing/"/>
+      <category term="testing" scheme="http://www.nairoj.top/categories/testing/"/>
     
     
-      <category term="php" scheme="http://nairoj.top/tags/php/"/>
+      <category term="php" scheme="http://www.nairoj.top/tags/php/"/>
     
-      <category term="code" scheme="http://nairoj.top/tags/code/"/>
+      <category term="code" scheme="http://www.nairoj.top/tags/code/"/>
     
   </entry>
   
