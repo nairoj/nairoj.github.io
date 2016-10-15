@@ -86,15 +86,36 @@
 
 
 
-<meta name="description" content="不为无益之事，何以遣有涯之生">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Nairoj 的个人博客">
-<meta property="og:url" content="http://www.nairoj.top/index.html">
+<meta name="description" content="ubuntu下远程登录linux计算机本文主要将讲通过ssh实现远程登录linux计算机,并且可以执行命令
+ssh是一种安全协议，主要对其的使用一般在远程登录(如A电脑通过命令行远程操作B电脑)和为其他网络服务提供安全协议(常见的如sftp)
+&amp;lt;—more—&amp;gt; 
+两台机器通过ssh建立链接的大概流程：
+首先，ssh由客户端和服务器端组成，若电脑A想要通过ssh远程控制电脑B，A则为客户">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ssh">
+<meta property="og:url" content="http://www.nairoj.top/2016/10/15/ssh/index.html">
 <meta property="og:site_name" content="Nairoj 的个人博客">
-<meta property="og:description" content="不为无益之事，何以遣有涯之生">
+<meta property="og:description" content="ubuntu下远程登录linux计算机本文主要将讲通过ssh实现远程登录linux计算机,并且可以执行命令
+ssh是一种安全协议，主要对其的使用一般在远程登录(如A电脑通过命令行远程操作B电脑)和为其他网络服务提供安全协议(常见的如sftp)
+&amp;lt;—more—&amp;gt; 
+两台机器通过ssh建立链接的大概流程：
+首先，ssh由客户端和服务器端组成，若电脑A想要通过ssh远程控制电脑B，A则为客户">
+<meta property="og:image" content="https://www.zybuluo.com/static/img/my_head.jpg">
+<meta property="og:image" content="https://www.zybuluo.com/static/img/my_head.jpg">
+<meta property="og:image" content="https://www.zybuluo.com/static/img/my_head.jpg">
+<meta property="og:image" content="https://www.zybuluo.com/static/img/my_head.jpg">
+<meta property="og:image" content="https://www.zybuluo.com/static/img/my_head.jpg">
+<meta property="og:image" content="https://www.zybuluo.com/static/img/my_head.jpg">
+<meta property="og:image" content="https://www.zybuluo.com/static/img/my_head.jpg">
+<meta property="og:updated_time" content="2016-10-15T15:52:57.517Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Nairoj 的个人博客">
-<meta name="twitter:description" content="不为无益之事，何以遣有涯之生">
+<meta name="twitter:title" content="ssh">
+<meta name="twitter:description" content="ubuntu下远程登录linux计算机本文主要将讲通过ssh实现远程登录linux计算机,并且可以执行命令
+ssh是一种安全协议，主要对其的使用一般在远程登录(如A电脑通过命令行远程操作B电脑)和为其他网络服务提供安全协议(常见的如sftp)
+&amp;lt;—more—&amp;gt; 
+两台机器通过ssh建立链接的大概流程：
+首先，ssh由客户端和服务器端组成，若电脑A想要通过ssh远程控制电脑B，A则为客户">
+<meta name="twitter:image" content="https://www.zybuluo.com/static/img/my_head.jpg">
 
 
 
@@ -115,9 +136,9 @@
 
 
 
-  <link rel="canonical" href="http://www.nairoj.top/"/>
+  <link rel="canonical" href="http://www.nairoj.top/2016/10/15/ssh/"/>
 
-  <title> Nairoj 的个人博客 </title>
+  <title> ssh | Nairoj 的个人博客 </title>
 <link rel="Shortcut Icon" href="/images/avatar.ico">
 </head>
 
@@ -139,9 +160,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-right 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -251,9 +270,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -273,10 +292,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/10/15/ssh/" itemprop="url">
-                  ssh
-                </a>
+                ssh
               
             
           </h1>
@@ -323,9 +339,7 @@
       
 
       
-        
-          
-            <h1 id="ubuntu下远程登录linux计算机"><a href="#ubuntu下远程登录linux计算机" class="headerlink" title="ubuntu下远程登录linux计算机"></a>ubuntu下远程登录linux计算机</h1><p>本文主要将讲通过ssh实现远程登录linux计算机,并且可以执行命令</p>
+        <h1 id="ubuntu下远程登录linux计算机"><a href="#ubuntu下远程登录linux计算机" class="headerlink" title="ubuntu下远程登录linux计算机"></a>ubuntu下远程登录linux计算机</h1><p>本文主要将讲通过ssh实现远程登录linux计算机,并且可以执行命令</p>
 <pre><code>ssh是一种安全协议，主要对其的使用一般在远程登录(如A电脑通过命令行远程操作B电脑)和为其他网络服务提供安全协议(常见的如sftp)
 </code></pre><p>&lt;—more—&gt; </p>
 <h2 id="两台机器通过ssh建立链接的大概流程："><a href="#两台机器通过ssh建立链接的大概流程：" class="headerlink" title="两台机器通过ssh建立链接的大概流程："></a>两台机器通过ssh建立链接的大概流程：</h2><ul>
@@ -380,16 +394,20 @@ A用自己的密钥解密发来的数据后，将解密得到的随机数发回�
 <li><a href="http://baike.baidu.com/link?url=20nZ-d-z36mEtUAFrc6ddHReyKm7E9Aw88BVrY69rTkFXugQ1NOFcnImzHMIDNXZYWUnOQiLrNh7QrxtN6iu1_" target="_blank" rel="external">http://baike.baidu.com/link?url=20nZ-d-z36mEtUAFrc6ddHReyKm7E9Aw88BVrY69rTkFXugQ1NOFcnImzHMIDNXZYWUnOQiLrNh7QrxtN6iu1_</a></li>
 </ul>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
@@ -400,16 +418,15 @@ A用自己的密钥解密发来的数据后，将解密得到的随机数发回�
 
       
       
-        <div class="post-eof"></div>
-      
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -417,6 +434,45 @@ A用自己的密钥解密发来的数据后，将解密得到的随机数发回�
 
 
           
+  <div class="comments" id="comments">
+    
+
+
+
+<ul class="ds-recent-visitors " data-num-items="14" data-avatar-size="42" > </ul>
+<!--多说js加载开始，一个页面只需要加载一次 -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"nairoj"};
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = 'http://static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+<!--多说js加载结束，一个页面只需要加载一次 -->
+
+<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="2016/10/15/ssh/" data-title="ssh" data-url="http://www.nairoj.top/2016/10/15/ssh/"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"nairoj"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	</script>
+<!-- 多说公共JS代码 end -->
+
+    
+    
+  </div>
+
 
         </div>
         
@@ -436,8 +492,17 @@ A用自己的密钥解密发来的数据后，将解密得到的随机数发回�
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -502,6 +567,17 @@ A用自己的密钥解密发来的数据后，将解密得到的随机数发回�
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#ubuntu下远程登录linux计算机"><span class="nav-number">1.</span> <span class="nav-text">ubuntu下远程登录linux计算机</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#两台机器通过ssh建立链接的大概流程："><span class="nav-number">1.1.</span> <span class="nav-text">两台机器通过ssh建立链接的大概流程：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#开始配置"><span class="nav-number">1.2.</span> <span class="nav-text">开始配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装客户端程序"><span class="nav-number">1.2.1.</span> <span class="nav-text">安装客户端程序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装服务端程序"><span class="nav-number">1.2.2.</span> <span class="nav-text">安装服务端程序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#开始远程登录"><span class="nav-number">1.2.3.</span> <span class="nav-text">开始远程登录</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#免密码登录"><span class="nav-number">1.3.</span> <span class="nav-text">免密码登录</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#最后"><span class="nav-number">1.3.1.</span> <span class="nav-text">最后</span></a></li></ol></li></ol></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -601,6 +677,10 @@ A用自己的密钥解密发来的数据后，将解密得到的随机数发回�
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
