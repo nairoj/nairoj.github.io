@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-29T09:19:03.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="VH7v3UOir9bobhNxK1fc" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-29T09:19:48.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="LuEFDtcRiQjrnZW8qUfc" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2049" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -113,6 +113,9 @@
             <mxPoint x="276" y="82.37999999999994" as="sourcePoint" />
             <mxPoint x="246.57999999999993" y="81.58999999999997" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9klRyavgKJmGXDa-9dNw-43" value="Diffusion Model" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9klRyavgKJmGXDa-9dNw-37">
+          <mxGeometry x="166" y="130" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9klRyavgKJmGXDa-9dNw-42" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=9.84126984126984;endSize=4.6761904761904765;width=8.333333333333334;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="0.3141" y="-17" width="50" height="50" relative="1" as="geometry">
